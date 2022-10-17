@@ -1,0 +1,249 @@
+steps:
+  STG_DELETE_4-94:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: false
+      locationID: ""
+      locationName: SRC
+      materializationType: table
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - columnReference:
+              columnCounter: 6609
+              stepCounter: "94"
+            dataType: VARCHAR(5)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: BUSINESS_UNIT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 6327
+                    stepCounter: "90"
+                transform: ""
+          - columnReference:
+              columnCounter: 6610
+              stepCounter: "94"
+            dataType: VARCHAR(10)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CM_BOOK
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 6328
+                    stepCounter: "90"
+                transform: ""
+          - columnReference:
+              columnCounter: 6611
+              stepCounter: "94"
+            dataType: VARCHAR(18)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: INV_ITEM_ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 6329
+                    stepCounter: "90"
+                transform: ""
+          - columnReference:
+              columnCounter: 6612
+              stepCounter: "94"
+            dataType: VARCHAR(4)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: COST_ELEMENT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 6330
+                    stepCounter: "90"
+                transform: ""
+          - columnReference:
+              columnCounter: 6613
+              stepCounter: "94"
+            dataType: TIMESTAMP_NTZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DT_TIMESTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 6331
+                    stepCounter: "90"
+                transform: ""
+          - columnReference:
+              columnCounter: 6614
+              stepCounter: "94"
+            dataType: NUMBER(15,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SEQ_NBR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 6332
+                    stepCounter: "90"
+                transform: ""
+          - columnReference:
+              columnCounter: 6615
+              stepCounter: "94"
+            dataType: TIMESTAMP_NTZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TRANSACTION_DT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 6333
+                    stepCounter: "90"
+                transform: ""
+          - columnReference:
+              columnCounter: 6616
+              stepCounter: "94"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CM_COST_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 6334
+                    stepCounter: "90"
+                transform: ""
+          - columnReference:
+              columnCounter: 6617
+              stepCounter: "94"
+            dataType: NUMBER(25,15)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CM_UNIT_COST
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 6335
+                    stepCounter: "90"
+                transform: ""
+          - columnReference:
+              columnCounter: 6618
+              stepCounter: "94"
+            dataType: VARCHAR(3)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CURRENCY_CD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 6336
+                    stepCounter: "90"
+                transform: ""
+          - columnReference:
+              columnCounter: 6619
+              stepCounter: "94"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CHG_TYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 6337
+                    stepCounter: "90"
+                transform: ""
+          - columnReference:
+              columnCounter: 6620
+              stepCounter: "94"
+            dataType: TIMESTAMP_NTZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: OBS_TS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 6338
+                    stepCounter: "90"
+                transform: ""
+          - columnReference:
+              columnCounter: 6621
+              stepCounter: "94"
+            dataType: VARCHAR(20)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: REC_SRC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 6339
+                    stepCounter: "90"
+                transform: ""
+          - columnReference:
+              columnCounter: 6622
+              stepCounter: "94"
+            dataType: VARCHAR(20)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TRANS_ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 6340
+                    stepCounter: "90"
+                transform: ""
+          - columnReference:
+              columnCounter: 6623
+              stepCounter: "94"
+            dataType: VARCHAR(24)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: USR_ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 6341
+                    stepCounter: "90"
+                transform: ""
+        cteString: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: SRC
+                nodeName: LOAD_PS_CM_PERPAVG_COST
+            join:
+              joinCondition: FROM {{ ref('SRC', 'LOAD_PS_CM_PERPAVG_COST') }} "LOAD_PS_CM_PERPAVG_COST"
+            name: STG_DELETE_4
+            noLinkRefs: []
+      name: STG_DELETE_4
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: "94"
