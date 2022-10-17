@@ -1,0 +1,1033 @@
+steps:
+  PRJ1036_DEV_C-110:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: false
+      locationID: ""
+      locationName: SRC
+      materializationType: table
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - columnReference:
+              columnCounter: 7941
+              stepCounter: "110"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: INTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7332
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7942
+              stepCounter: "110"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PARID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7333
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7943
+              stepCounter: "110"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7334
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7944
+              stepCounter: "110"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: XSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7335
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7945
+              stepCounter: "110"
+            dataType: VARCHAR(8)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7336
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7946
+              stepCounter: "110"
+            dataType: VARCHAR(6)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7337
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7947
+              stepCounter: "110"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: USTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7338
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7948
+              stepCounter: "110"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7339
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7949
+              stepCounter: "110"
+            dataType: VARCHAR(30)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: LNAME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7340
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7950
+              stepCounter: "110"
+            dataType: VARCHAR(30)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FNAME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7341
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7951
+              stepCounter: "110"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SREPID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7342
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7952
+              stepCounter: "110"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CORPID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7343
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7953
+              stepCounter: "110"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PRMTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7344
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7954
+              stepCounter: "110"
+            dataType: VARCHAR(40)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SORT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7345
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7955
+              stepCounter: "110"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: INITL
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7346
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7956
+              stepCounter: "110"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WBASIN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7347
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7957
+              stepCounter: "110"
+            dataType: NUMBER(14,4)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CLIMIT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7348
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7958
+              stepCounter: "110"
+            dataType: NUMBER(14,4)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: BAL
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7349
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7959
+              stepCounter: "110"
+            dataType: NUMBER(14,4)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PASTDU
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7350
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7960
+              stepCounter: "110"
+            dataType: NUMBER(6,4)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DISCPC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7351
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7961
+              stepCounter: "110"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DISCYN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7352
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7962
+              stepCounter: "110"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TERMID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7353
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7963
+              stepCounter: "110"
+            dataType: VARCHAR(8)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DUEDT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7354
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7964
+              stepCounter: "110"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: STAXID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7355
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7965
+              stepCounter: "110"
+            dataType: VARCHAR(30)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CELLNO
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7356
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7966
+              stepCounter: "110"
+            dataType: NUMBER(11,2)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: OPENCR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7357
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7967
+              stepCounter: "110"
+            dataType: NUMBER(11,2)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: OPENDB
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7358
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7968
+              stepCounter: "110"
+            dataType: NUMBER(11,2)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PPBAL
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7359
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7969
+              stepCounter: "110"
+            dataType: NUMBER(11,2)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PPIBAL
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7360
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7970
+              stepCounter: "110"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DPLVL
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7361
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7971
+              stepCounter: "110"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WHOLYN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7362
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7972
+              stepCounter: "110"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SLIDYN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7363
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7973
+              stepCounter: "110"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN01
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7364
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7974
+              stepCounter: "110"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DISCID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7365
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7975
+              stepCounter: "110"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PTAXID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7366
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7976
+              stepCounter: "110"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN02
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7367
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7977
+              stepCounter: "110"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: BDEBT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7368
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7978
+              stepCounter: "110"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CUSTOMERTYPEID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7369
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7979
+              stepCounter: "110"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PAYMENTTERMSID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7370
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7980
+              stepCounter: "110"
+            dataType: BOOLEAN
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FINANCECHARGE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7371
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7981
+              stepCounter: "110"
+            dataType: BOOLEAN
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PENALTYCHARGE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7372
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7982
+              stepCounter: "110"
+            dataType: BOOLEAN
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FINANCECHARGEONTERM
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7373
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7983
+              stepCounter: "110"
+            dataType: BOOLEAN
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FINANCECHARGEONDAYONE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7374
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7984
+              stepCounter: "110"
+            dataType: BOOLEAN
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ORDERHOLDCHECK
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7375
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7985
+              stepCounter: "110"
+            dataType: BOOLEAN
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CREDITHOLD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7376
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7986
+              stepCounter: "110"
+            dataType: BOOLEAN
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: POREQUIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7377
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7987
+              stepCounter: "110"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CREDITMANAGERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7378
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7988
+              stepCounter: "110"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ADMINISTRATIVEASSISTANTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7379
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7989
+              stepCounter: "110"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ISCASHSALESACCOUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7380
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7990
+              stepCounter: "110"
+            dataType: VARCHAR(20)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: LGCYID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7381
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7991
+              stepCounter: "110"
+            dataType: BOOLEAN
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CANVIEWPRICEBOOKONLINE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7382
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7992
+              stepCounter: "110"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CREDITRATINGID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7383
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7993
+              stepCounter: "110"
+            dataType: BOOLEAN
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ISBNSCUSTOMER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7384
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7994
+              stepCounter: "110"
+            dataType: BOOLEAN
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ISVFAQUALIFIED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7385
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7995
+              stepCounter: "110"
+            dataType: BOOLEAN
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SUBTOTALINVOICEBYORDERSFIELDS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7386
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7996
+              stepCounter: "110"
+            dataType: BOOLEAN
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SINGLEORDERINVOICINGFLAG
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7387
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7997
+              stepCounter: "110"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ACCOUNTDESCUNIQUEID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7388
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7998
+              stepCounter: "110"
+            dataType: BOOLEAN
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ISARLOCKED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7389
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 7999
+              stepCounter: "110"
+            dataType: BOOLEAN
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ISLEGALHOLD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7390
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 8000
+              stepCounter: "110"
+            dataType: NUMBER(11,2)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PREPAYBALANCENF
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7391
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 8001
+              stepCounter: "110"
+            dataType: VARCHAR(100)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DIGITALUSERNICKNAME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7392
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 8002
+              stepCounter: "110"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FIPSCODE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7393
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 8003
+              stepCounter: "110"
+            dataType: BOOLEAN
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ISCREDITPROSPECT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7394
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 8004
+              stepCounter: "110"
+            dataType: TIMESTAMP_NTZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FINANCINGNEEDDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7395
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 8005
+              stepCounter: "110"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CHG_TYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7396
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 8006
+              stepCounter: "110"
+            dataType: TIMESTAMP_NTZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: OBS_TS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7397
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 8007
+              stepCounter: "110"
+            dataType: VARCHAR(20)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: REC_SRC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7398
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 8008
+              stepCounter: "110"
+            dataType: VARCHAR(20)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TRANS_ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7399
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 8009
+              stepCounter: "110"
+            dataType: VARCHAR(24)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: USR_ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7400
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 8010
+              stepCounter: "110"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7401
+                    stepCounter: "103"
+                transform: ""
+          - columnReference:
+              columnCounter: 8011
+              stepCounter: "110"
+            dataType: TIMESTAMP_NTZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7402
+                    stepCounter: "103"
+                transform: ""
+        cteString: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: SRC
+                nodeName: LOAD_NCUST0_SNOWFLAKE_STG
+            join:
+              joinCondition: FROM {{ ref('SRC', 'LOAD_NCUST0_SNOWFLAKE_STG') }} "LOAD_NCUST0_SNOWFLAKE_STG"
+            name: PRJ1036_DEV_C
+            noLinkRefs: []
+      name: PRJ1036_DEV_C
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: "110"
