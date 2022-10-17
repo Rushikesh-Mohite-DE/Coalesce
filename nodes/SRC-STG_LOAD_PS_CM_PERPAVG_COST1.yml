@@ -1,0 +1,249 @@
+steps:
+  STG_LOAD_PS_CM_PERPAVG_COST1-100:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: false
+      locationID: ""
+      locationName: SRC
+      materializationType: table
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - columnReference:
+              columnCounter: 7035
+              stepCounter: "100"
+            dataType: VARCHAR(5)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: BUSINESS_UNIT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7020
+                    stepCounter: "99"
+                transform: ""
+          - columnReference:
+              columnCounter: 7036
+              stepCounter: "100"
+            dataType: VARCHAR(18)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: INV_ITEM_ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7022
+                    stepCounter: "99"
+                transform: ""
+          - columnReference:
+              columnCounter: 7037
+              stepCounter: "100"
+            dataType: VARCHAR(10)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CM_BOOK
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7021
+                    stepCounter: "99"
+                transform: ""
+          - columnReference:
+              columnCounter: 7038
+              stepCounter: "100"
+            dataType: VARCHAR(4)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: COST_ELEMENT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7023
+                    stepCounter: "99"
+                transform: ""
+          - columnReference:
+              columnCounter: 7039
+              stepCounter: "100"
+            dataType: TIMESTAMP_NTZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DT_TIMESTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7024
+                    stepCounter: "99"
+                transform: ""
+          - columnReference:
+              columnCounter: 7040
+              stepCounter: "100"
+            dataType: NUMBER(15,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SEQ_NBR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7025
+                    stepCounter: "99"
+                transform: ""
+          - columnReference:
+              columnCounter: 7041
+              stepCounter: "100"
+            dataType: TIMESTAMP_NTZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TRANSACTION_DT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7026
+                    stepCounter: "99"
+                transform: ""
+          - columnReference:
+              columnCounter: 7042
+              stepCounter: "100"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CM_COST_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7027
+                    stepCounter: "99"
+                transform: ""
+          - columnReference:
+              columnCounter: 7043
+              stepCounter: "100"
+            dataType: NUMBER(25,15)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CM_UNIT_COST
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7028
+                    stepCounter: "99"
+                transform: ""
+          - columnReference:
+              columnCounter: 7044
+              stepCounter: "100"
+            dataType: VARCHAR(3)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CURRENCY_CD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7029
+                    stepCounter: "99"
+                transform: ""
+          - columnReference:
+              columnCounter: 7045
+              stepCounter: "100"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CHG_TYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7030
+                    stepCounter: "99"
+                transform: ""
+          - columnReference:
+              columnCounter: 7046
+              stepCounter: "100"
+            dataType: TIMESTAMP_NTZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: OBS_TS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7031
+                    stepCounter: "99"
+                transform: ""
+          - columnReference:
+              columnCounter: 7047
+              stepCounter: "100"
+            dataType: VARCHAR(20)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: REC_SRC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7032
+                    stepCounter: "99"
+                transform: ""
+          - columnReference:
+              columnCounter: 7048
+              stepCounter: "100"
+            dataType: VARCHAR(20)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TRANS_ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7033
+                    stepCounter: "99"
+                transform: ""
+          - columnReference:
+              columnCounter: 7049
+              stepCounter: "100"
+            dataType: VARCHAR(24)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: USR_ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7034
+                    stepCounter: "99"
+                transform: ""
+        cteString: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: STAGE
+                nodeName: STG_LOAD_PS_CM_PERPAVG_COST
+            join:
+              joinCondition: FROM {{ ref('STAGE', 'STG_LOAD_PS_CM_PERPAVG_COST') }} "STG_LOAD_PS_CM_PERPAVG_COST"
+            name: STG_LOAD_PS_CM_PERPAVG_COST1
+            noLinkRefs: []
+      name: STG_LOAD_PS_CM_PERPAVG_COST1
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: "100"
