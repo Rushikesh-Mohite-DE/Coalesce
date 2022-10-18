@@ -1,0 +1,3245 @@
+steps:
+  PRJ1036_DEV_A_T_MUTUAL_CHECK-113:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: false
+      locationID: ""
+      locationName: SRC
+      materializationType: table
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - columnReference:
+              columnCounter: 8133
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: INTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7103
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8134
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PARID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7104
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8135
+              stepCounter: "113"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7105
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8136
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: XSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7106
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8137
+              stepCounter: "113"
+            dataType: VARCHAR(8)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7107
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8138
+              stepCounter: "113"
+            dataType: VARCHAR(6)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7108
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8139
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: USTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7109
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8140
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7110
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8141
+              stepCounter: "113"
+            dataType: VARCHAR(30)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: NAME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7111
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8142
+              stepCounter: "113"
+            dataType: VARCHAR(30)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SORT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7112
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8143
+              stepCounter: "113"
+            dataType: VARCHAR(100)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ADRLN1
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7113
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8144
+              stepCounter: "113"
+            dataType: VARCHAR(100)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ADRLN2
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7114
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8145
+              stepCounter: "113"
+            dataType: VARCHAR(100)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ADRLN3
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7115
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8146
+              stepCounter: "113"
+            dataType: VARCHAR(50)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CITY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7116
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8147
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: GEOID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7117
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8148
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CORPLV
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7118
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8149
+              stepCounter: "113"
+            dataType: VARCHAR(15)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: MAILCD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7119
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8150
+              stepCounter: "113"
+            dataType: VARCHAR(15)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PHONE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7120
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8151
+              stepCounter: "113"
+            dataType: VARCHAR(15)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FAX
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7121
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8152
+              stepCounter: "113"
+            dataType: VARCHAR(15)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DATA
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7122
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8153
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ARSLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7123
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8154
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SIGNON
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7124
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8155
+              stepCounter: "113"
+            dataType: VARCHAR(5)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: AZPSP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7125
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8156
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: LEVLID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7126
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8157
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: S36ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7127
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8158
+              stepCounter: "113"
+            dataType: VARCHAR(8)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SSNSDT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7128
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8159
+              stepCounter: "113"
+            dataType: VARCHAR(8)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SSNEDT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7129
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8160
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CHKPMT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7130
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8161
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CSTORD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7131
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8162
+              stepCounter: "113"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DLVMEM
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7132
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8163
+              stepCounter: "113"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ORDMEM
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7133
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8164
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PCKLVL
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7134
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8165
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: RIMGID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7135
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8166
+              stepCounter: "113"
+            dataType: VARCHAR(100)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SHPLN1
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7136
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8167
+              stepCounter: "113"
+            dataType: VARCHAR(100)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SHPLN2
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7137
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8168
+              stepCounter: "113"
+            dataType: VARCHAR(100)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SHPLN3
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7138
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8169
+              stepCounter: "113"
+            dataType: VARCHAR(50)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SHPCTY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7139
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8170
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SGEOID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7140
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8171
+              stepCounter: "113"
+            dataType: VARCHAR(15)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SMALCD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7141
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8172
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: BASMER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7142
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8173
+              stepCounter: "113"
+            dataType: VARCHAR(50)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FRMHED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7143
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8174
+              stepCounter: "113"
+            dataType: VARCHAR(10)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CDMS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7144
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8175
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FYINVP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7145
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8176
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FMINVP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7146
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8177
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FYINVF
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7147
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8178
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FMINVF
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7148
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8179
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FYSLSP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7149
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8180
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FMSLSP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7150
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8181
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FYSLSF
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7151
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8182
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FMSLSF
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7152
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8183
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FYPURP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7153
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8184
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FMPURP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7154
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8185
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FYPURF
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7155
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8186
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FMPURF
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7156
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8187
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FYARP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7157
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8188
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FMARP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7158
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8189
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FYARF
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7159
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8190
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FMARF
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7160
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8191
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FYGLP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7161
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8192
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FMGLP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7162
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8193
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FYGLF
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7163
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8194
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FMGLF
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7164
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8195
+              stepCounter: "113"
+            dataType: VARCHAR(10)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FRMABV
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7165
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8196
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ALLUP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7166
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8197
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CPOPQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7167
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8198
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CPOSHQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7168
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8199
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WOROND
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7169
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8200
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: REQGDL
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7170
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8201
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: HIDLIC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7171
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8202
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DTCROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7172
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8203
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DTP65
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7173
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8204
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DTMMSG
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7174
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8205
+              stepCounter: "113"
+            dataType: VARCHAR(3)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DTCCAR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7175
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8206
+              stepCounter: "113"
+            dataType: VARCHAR(3)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WOCCAR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7176
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8207
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WORVIS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7177
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8208
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WOCDMS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7178
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8209
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: HIDDTR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7179
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8210
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TMXENV
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7180
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8211
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: BLQDRY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7181
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8212
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: BLAUGR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7182
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8213
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: BLFLO
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7183
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8214
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: BLMXSZ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7184
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8215
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DMXSZ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7185
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8216
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: LMXSZ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7186
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8217
+              stepCounter: "113"
+            dataType: VARCHAR(2)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: BLMXUM
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7187
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8218
+              stepCounter: "113"
+            dataType: VARCHAR(2)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DMXUM
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7188
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8219
+              stepCounter: "113"
+            dataType: VARCHAR(2)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: LMXUM
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7189
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8220
+              stepCounter: "113"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: BLDMEM
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7190
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8221
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: BLIRAW
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7191
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8222
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CLAYID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7192
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8223
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: APDVID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7193
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8224
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: AUTOBL
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7194
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8225
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SHORST
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7195
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8226
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: RCVMTH
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7196
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8227
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: RCVCST
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7197
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8228
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: RCVCSF
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7198
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8229
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: BLPSSB
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7199
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8230
+              stepCounter: "113"
+            dataType: NUMBER(5,3)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DSCPBP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7200
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8231
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: BLPREF
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7201
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8232
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: BLEBCH
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7202
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8233
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: BLPRCM
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7203
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8234
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PRTNIT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7204
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8235
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: BLPFAC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7205
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8236
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: HIDBLD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7206
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8237
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: HLDSXF
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7207
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8238
+              stepCounter: "113"
+            dataType: VARCHAR(10)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: L1HEAD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7208
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8239
+              stepCounter: "113"
+            dataType: VARCHAR(10)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: L2HEAD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7209
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8240
+              stepCounter: "113"
+            dataType: VARCHAR(10)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: L3HEAD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7210
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8241
+              stepCounter: "113"
+            dataType: VARCHAR(10)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: L4HEAD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7211
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8242
+              stepCounter: "113"
+            dataType: VARCHAR(10)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: L5HEAD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7212
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8243
+              stepCounter: "113"
+            dataType: VARCHAR(10)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: L6HEAD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7213
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8244
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FULARS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7214
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8245
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: AUGMAX
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7215
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8246
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: LGCYNO
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7216
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8247
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: UPDBSC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7217
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8248
+              stepCounter: "113"
+            dataType: NUMBER(12,4)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: LQBLPC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7218
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8249
+              stepCounter: "113"
+            dataType: NUMBER(12,4)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DRBLPC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7219
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8250
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TIMCLK
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7220
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8251
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PPAYYN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7221
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8252
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PAYYN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7222
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8253
+              stepCounter: "113"
+            dataType: VARCHAR(50)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: EMAIL
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7223
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8254
+              stepCounter: "113"
+            dataType: VARCHAR(30)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CPERSN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7224
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8255
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TXIDIV
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7225
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8256
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7226
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8257
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CPDFID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7227
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8258
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: NOSLMD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7228
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8259
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: RCRQRL
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7229
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8260
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: RIGINV
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7230
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8261
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: REQSDT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7231
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8262
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: INVLIN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7232
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8263
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PRTWHS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7233
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8264
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: NOCSDF
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7234
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8265
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: MGRID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7235
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8266
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN01
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7236
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8267
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN02
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7237
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8268
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN03
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7238
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8269
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN04
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7239
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8270
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN05
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7240
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8271
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN06
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7241
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8272
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: INTI01
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7242
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8273
+              stepCounter: "113"
+            dataType: VARCHAR(20)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CCLCID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7243
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8274
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN07
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7244
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8275
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN08
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7245
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8276
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: INTI02
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7246
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8277
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: INTI03
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7247
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8278
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ENUM1
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7248
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8279
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ENUM2
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7249
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8280
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: INTI04
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7250
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8281
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN09
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7251
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8282
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN10
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7252
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8283
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN11
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7253
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8284
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN12
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7254
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8285
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN13
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7255
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8286
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN14
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7256
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8287
+              stepCounter: "113"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: INVMEM
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7257
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8288
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: STAXID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7258
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8289
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SGEOMT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7259
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8290
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SGEOST
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7260
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8291
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: POSLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7261
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8292
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: INTI05
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7262
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8293
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: INTI06
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7263
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8294
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: INTI07
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7264
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8295
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN15
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7265
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8296
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN16
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7266
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8297
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN17
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7267
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8298
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN18
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7268
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8299
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN19
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7269
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8300
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ENUM3
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7270
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8301
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN20
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7271
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8302
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN21
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7272
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8303
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN22
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7273
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8304
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN24
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7274
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8305
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN23
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7275
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8306
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN25
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7276
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8307
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN26
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7277
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8308
+              stepCounter: "113"
+            dataType: VARCHAR(20)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CHR01
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7278
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8309
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN27
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7279
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8310
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN28
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7280
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8311
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN29
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7281
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8312
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN30
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7282
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8313
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: AGJUNC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7283
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8314
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SST
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7284
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8315
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: INTI08
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7285
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8316
+              stepCounter: "113"
+            dataType: VARCHAR(10)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: AWSANO
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7286
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8317
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN31
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7287
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8318
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN32
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7288
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8319
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN33
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7289
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8320
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN34
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7290
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8321
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN35
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7291
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8322
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN36
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7292
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8323
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN37
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7293
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8324
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN38
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7294
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8325
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: YN39
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7295
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8326
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: STDCAR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7296
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8327
+              stepCounter: "113"
+            dataType: BOOLEAN
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ISWHOLESALELOCATION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7297
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8328
+              stepCounter: "113"
+            dataType: BOOLEAN
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ISNATIONALACCOUNTLOCATION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7298
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8329
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DEFAULTCUSTOMERTERMSID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7299
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8330
+              stepCounter: "113"
+            dataType: VARCHAR(10)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DEFAULTFINANCECHARGECODE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7300
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8331
+              stepCounter: "113"
+            dataType: VARCHAR(10)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DEFAULTPENALTYCHARGECODE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7301
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8332
+              stepCounter: "113"
+            dataType: VARCHAR(20)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: EBID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7302
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8333
+              stepCounter: "113"
+            dataType: VARCHAR(20)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: GLN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7303
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8334
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FISCALARYEAR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7304
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8335
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FISCALARMONTH
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7305
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8336
+              stepCounter: "113"
+            dataType: BOOLEAN
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ALLOWGENERICPREPAY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7306
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8337
+              stepCounter: "113"
+            dataType: VARCHAR(50)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DEFAULTGENERICPREPAYDESCRIPTION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7307
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8338
+              stepCounter: "113"
+            dataType: BOOLEAN
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SEEDCONNECTIVITYELIGIBLE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7308
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8339
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CHECKSCANNINGMODE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7309
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8340
+              stepCounter: "113"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PAYMENTCARDMODE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7310
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8341
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: BLENDUSEAVERAGECOST
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7311
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8342
+              stepCounter: "113"
+            dataType: VARCHAR(20)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: STATEDEALERLICENSENUMBER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7312
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8343
+              stepCounter: "113"
+            dataType: DATE
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: STATEDEALERLICENSEEXPIRATIONDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7313
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8344
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: BLENDUSESTANDARDCOST
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7314
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8345
+              stepCounter: "113"
+            dataType: VARCHAR(30)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: STATEDEALERLICENSEHOLDER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7315
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8346
+              stepCounter: "113"
+            dataType: BOOLEAN
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: MULTICURRENCYSUPPORT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7316
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8347
+              stepCounter: "113"
+            dataType: NUMBER(7,2)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DEFAULTACRES
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7317
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8348
+              stepCounter: "113"
+            dataType: BOOLEAN
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: USESCULTURA
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7318
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8349
+              stepCounter: "113"
+            dataType: BOOLEAN
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ALLOWDIRECTORDEROVERRIDE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7319
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8350
+              stepCounter: "113"
+            dataType: BOOLEAN
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SUPPRESSPMTTERMS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7320
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8351
+              stepCounter: "113"
+            dataType: BOOLEAN
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: INVENTORYBLENDSDIRECTONSTOCKTRANSFERS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7321
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8352
+              stepCounter: "113"
+            dataType: BOOLEAN
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: NONINVENTORYLOCATION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7322
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8353
+              stepCounter: "113"
+            dataType: BOOLEAN
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: AUTOAPPLYPAYMENTS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7323
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8354
+              stepCounter: "113"
+            dataType: BOOLEAN
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: HIDEAUTOMATEDTRUCKHAULING
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7324
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8355
+              stepCounter: "113"
+            dataType: VARCHAR(1)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CHG_TYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7325
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8356
+              stepCounter: "113"
+            dataType: TIMESTAMP_NTZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: OBS_TS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7326
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8357
+              stepCounter: "113"
+            dataType: VARCHAR(20)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: REC_SRC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7327
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8358
+              stepCounter: "113"
+            dataType: VARCHAR(20)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TRANS_ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7328
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8359
+              stepCounter: "113"
+            dataType: VARCHAR(24)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: USR_ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7329
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8360
+              stepCounter: "113"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7330
+                    stepCounter: "102"
+                transform: ""
+          - columnReference:
+              columnCounter: 8361
+              stepCounter: "113"
+            dataType: TIMESTAMP_NTZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7331
+                    stepCounter: "102"
+                transform: ""
+        cteString: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: SRC
+                nodeName: LOAD_NCORP0_SNOWFLAKE_STG
+            join:
+              joinCondition: FROM {{ ref('SRC', 'LOAD_NCORP0_SNOWFLAKE_STG') }} "LOAD_NCORP0_SNOWFLAKE_STG"
+            name: PRJ1036_DEV_A_T_MUTUAL_CHECK
+            noLinkRefs: []
+      name: PRJ1036_DEV_A_T_MUTUAL_CHECK
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: "113"
