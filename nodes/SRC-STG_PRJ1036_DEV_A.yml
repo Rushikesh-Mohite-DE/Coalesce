@@ -1,0 +1,781 @@
+steps:
+  STG_PRJ1036_DEV_A-117:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: false
+      locationID: ""
+      locationName: SRC
+      materializationType: table
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - columnReference:
+              columnCounter: 8608
+              stepCounter: "117"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: REC_SRC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7599
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8609
+              stepCounter: "117"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: INTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7600
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8610
+              stepCounter: "117"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PARID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7601
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8611
+              stepCounter: "117"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7602
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8612
+              stepCounter: "117"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: XSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7603
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8613
+              stepCounter: "117"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7604
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8614
+              stepCounter: "117"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7605
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8615
+              stepCounter: "117"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: USTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7606
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8616
+              stepCounter: "117"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7607
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8617
+              stepCounter: "117"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: VOIDDT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7608
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8618
+              stepCounter: "117"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: VFSCYR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7609
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8619
+              stepCounter: "117"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: VFSCMO
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7610
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8620
+              stepCounter: "117"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FISCYR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7611
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8621
+              stepCounter: "117"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FISCMO
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7612
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8622
+              stepCounter: "117"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CUSTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7613
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8623
+              stepCounter: "117"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: INVDT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7614
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8624
+              stepCounter: "117"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SHIPDT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7615
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8625
+              stepCounter: "117"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DUEDT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7616
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8626
+              stepCounter: "117"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DISCDT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7617
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8627
+              stepCounter: "117"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ORDRID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7618
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8628
+              stepCounter: "117"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SREPID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7619
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8629
+              stepCounter: "117"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CRTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7620
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8630
+              stepCounter: "117"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ORDTYP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7621
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8631
+              stepCounter: "117"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PO
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7622
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8632
+              stepCounter: "117"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DISCPL
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7623
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8633
+              stepCounter: "117"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: VOIDCD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7624
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8634
+              stepCounter: "117"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: BLNDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7625
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8635
+              stepCounter: "117"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CRDTNO
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7626
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8636
+              stepCounter: "117"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CSALE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7627
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8637
+              stepCounter: "117"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CCC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7628
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8638
+              stepCounter: "117"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CTRID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7629
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8639
+              stepCounter: "117"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CADRID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7630
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8640
+              stepCounter: "117"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ARREC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7631
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8641
+              stepCounter: "117"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ONHOLD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7632
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8642
+              stepCounter: "117"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SLIDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7633
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8643
+              stepCounter: "117"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SPLTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7634
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8644
+              stepCounter: "117"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CRDRSN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7635
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8645
+              stepCounter: "117"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TRXNUM
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7636
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8646
+              stepCounter: "117"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: COGSID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7637
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8647
+              stepCounter: "117"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: AREFID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7638
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8648
+              stepCounter: "117"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SUPRES
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7639
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8649
+              stepCounter: "117"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SYSDAT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7640
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8650
+              stepCounter: "117"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DELIVERY_GEO_ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7641
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8651
+              stepCounter: "117"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PAYMENT_TERMS_TEMPLATE_ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7642
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8652
+              stepCounter: "117"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CHG_TYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7643
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8653
+              stepCounter: "117"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TRANS_ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7644
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8654
+              stepCounter: "117"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: USR_ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7645
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8655
+              stepCounter: "117"
+            dataType: TIMESTAMP_NTZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: OBS_TS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7646
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8656
+              stepCounter: "117"
+            dataType: VARCHAR(5)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PS_REC_SRC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7647
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8657
+              stepCounter: "117"
+            dataType: VARCHAR(4)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: LMDM_REC_SRC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7648
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8658
+              stepCounter: "117"
+            dataType: VARCHAR(7)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SEG_REC_SRC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7649
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8659
+              stepCounter: "117"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7650
+                    stepCounter: "106"
+                transform: ""
+          - columnReference:
+              columnCounter: 8660
+              stepCounter: "117"
+            dataType: TIMESTAMP_NTZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7651
+                    stepCounter: "106"
+                transform: ""
+        cteString: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: SRC
+                nodeName: PRJ1036_DEV_A
+            join:
+              joinCondition: FROM {{ ref('SRC', 'PRJ1036_DEV_A') }} "PRJ1036_DEV_A"
+            name: STG_PRJ1036_DEV_A
+            noLinkRefs: []
+      name: STG_PRJ1036_DEV_A
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: "117"
